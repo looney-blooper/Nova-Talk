@@ -1,0 +1,21 @@
+#fine tuning model
+transformers
+peft 
+datasets
+torch
+accelerate
+bitsandbits
+trl
+scikit-learn
+
+#visualization
+matplotlib
+
+#math_calculation
+numpy
+
+#data_processing
+pandas
+
+#nlp
+scipy
