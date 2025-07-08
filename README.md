@@ -18,6 +18,8 @@ NovaTalk leverages the capabilities of the FLAN-T5 base model fine-tuned on doma
 - **Language**: English
 - **Domain**: Astrophysics / Space Science
 
+> ⚠️ **Note:** Model training is currently in progress and has not yet reached its optimal state due to limited computational resources. Performance will improve as training continues or is migrated to more powerful hardware.
+
 ---
 
 ## 📚 Dataset Description
@@ -36,4 +38,16 @@ The dataset used is a collection of question-answer pairs focused on astrophysic
    git clone https://github.com/yourusername/NovaTalk.git
    cd NovaTalk
 
-***HOLAA***
+2. **Install the Required Libraries**
+   ```bash
+   pip install -r requirements.txt
+
+***Fine tuning the Model***
+1. **Run the main.py file**
+   ```bash
+   python main.py   #REMEMBER ... This step may take long time to execute as the model is fine tuning from the scratch.
+
+***To interact with the fine tuned model***
+1. **Run the Nova-talk-askme.py file**
+   ```bash
+   python nova_talk_askme.py
