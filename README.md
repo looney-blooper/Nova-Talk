@@ -40,14 +40,19 @@ The dataset used is a collection of question-answer pairs focused on astrophysic
 
 2. **Install the Required Libraries**
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt  #For Fine tuning the model
 
-***Fine tuning the Model***
+                                 **OR**
+
+   ```bash
+   pip install transformers torch  #For only model inference
+
+###Fine tuning the Model
 1. **Run the main.py file**
    ```bash
    python main.py   #REMEMBER ... This step may take long time to execute as the model is fine tuning from the scratch.
 
-***To interact with the fine tuned model***
+###To interact with the fine tuned model
 1. **Run the Nova-talk-askme.py file**
    ```bash
    python nova_talk_askme.py
