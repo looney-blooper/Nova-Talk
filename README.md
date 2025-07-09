@@ -44,7 +44,6 @@ The dataset used is a collection of question-answer pairs focused on astrophysic
 
                                  **OR**
 
-   ```bash
    pip install transformers torch  #For only model inference
 
 ###Fine tuning the Model
